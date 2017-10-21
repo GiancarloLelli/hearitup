@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<queryResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="BingAudio">
+  <version>1</version>
+  <result>MATCH</result>
+  <matches>
+    <match>
+      <id>a73eb907-0100-11db-89ca-0019b92a3933</id>
+      <domain>musiwave.prod</domain>
+      <type>Song</type>
+      <title>Lose Yourself to Dance</title>
+      <description>Daft Punk feat. Pharrell Williams - Random Access Memories</description>
+      <properties i:type="Song">
+        <songTitle>Lose Yourself to Dance</songTitle>
+        <artistName>Daft Punk feat. Pharrell Williams</artistName>
+        <releaseTitle>Random Access Memories</releaseTitle>
+      </properties>
+      <url>http://m.bing.com/search/search.aspx?Q=%22Lose%20Yourself%20to%20Dance%22%20%22Daft%20Punk%20feat.%20Pharrell%20Williams%22&amp;a=results</url>
+      <secondsOffset>69.36</secondsOffset>
+      <transform i:type="ScalingTransform">
+        <inversePitchSpeedupPercentage>0.0</inversePitchSpeedupPercentage>
+        <inverseTempoSpeedupPercentage>0.0</inverseTempoSpeedupPercentage>
+      </transform>
+    </match>
+    <match>
+      <id>c70e4d01-0100-11db-89ca-0019b92a3933</id>
+      <domain>musiwave.prod</domain>
+      <type>Song</type>
+      <title>Just For You</title>
+      <description>Joja Wendt, Lenny Bush, Ronnie Verell - The Art Of Boogie Woogie-piano</description>
+      <properties i:type="Song">
+        <songTitle>Just For You</songTitle>
+        <artistName>Joja Wendt, Lenny Bush, Ronnie Verell</artistName>
+        <releaseTitle>The Art Of Boogie Woogie-piano</releaseTitle>
+      </properties>
+      <url>http://m.bing.com/search/search.aspx?Q=%22Just%20For%20You%22%20%22Joja%20Wendt,%20Lenny%20Bush,%20Ronnie%20Verell%22&amp;a=results</url>
+      <secondsOffset>58.68</secondsOffset>
+      <transform i:type="ScalingTransform">
+        <inversePitchSpeedupPercentage>0.0</inversePitchSpeedupPercentage>
+        <inverseTempoSpeedupPercentage>0.0</inverseTempoSpeedupPercentage>
+      </transform>
+    </match>
+    <match>
+      <id>e3e62006-0100-11db-89ca-0019b92a3933</id>
+      <domain>musiwave.prod</domain>
+      <type>Song</type>
+      <title>Necu,necu Dijamante</title>
+      <description>Halid Beslic - H30 / Live In Hollywood</description>
+      <properties i:type="Song">
+        <songTitle>Necu,necu Dijamante</songTitle>
+        <artistName>Halid Beslic</artistName>
+        <releaseTitle>H30 / Live In Hollywood</releaseTitle>
+      </properties>
+      <url>http://m.bing.com/search/search.aspx?Q=%22Necu,necu%20Dijamante%22%20%22Halid%20Beslic%22&amp;a=results</url>
+      <secondsOffset>234.32</secondsOffset>
+      <transform i:type="ScalingTransform">
+        <inversePitchSpeedupPercentage>0.0</inversePitchSpeedupPercentage>
+        <inverseTempoSpeedupPercentage>0.0</inverseTempoSpeedupPercentage>
+      </transform>
+    </match>
+  </matches>
+  <errors />
+</queryResult>

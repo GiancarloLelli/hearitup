@@ -1,0 +1,26 @@
+﻿<Application
+    x:Class="HIU.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HIU.App"
+    xmlns:vm="using:HIU.App.Bootstrap"
+    xmlns:conv="using:HIU.Core.Converters"
+    RequestedTheme="Dark">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="ViewModelLocator" />
+            <conv:InverseBooleanToVisibilityConverter x:Key="InverseBooleanToVisibility" />
+            <conv:ObjectToMusicRecordItemConverter x:Key="ObjectToMusicRecordItemConverter" />
+            <conv:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+            <conv:ObjectToTrackConverter x:Key="ObjectToTrackConverter" />
+
+            <!-- Data Templates here -->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style\StyleDictionary.xml" />
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+    
+</Application>
