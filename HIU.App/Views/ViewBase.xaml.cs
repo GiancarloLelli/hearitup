@@ -19,6 +19,13 @@ namespace HIU.App.Views
 			InitializeComponent();
 			HideApplicationBar().Wait();
 			m_rootFrame = Window.Current.Content as Frame;
+			Loaded += ViewBase_Loaded;
+		}
+
+		private void ViewBase_Loaded(object sender, RoutedEventArgs e)
+		{
+			var navigableViewModel = DataContext as INavigable;
+			navigableViewModel?.Loaded(e);
 		}
 
 		private async Task HideApplicationBar()

@@ -11,8 +11,8 @@
     <AssemblyName>HIU.Core</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -118,17 +118,13 @@
     <Compile Include="Converters\ObjectToTrackConverter.cs" />
     <Compile Include="Extensions\HttpContentExtension.cs" />
     <Compile Include="Extensions\KeyValuePairExtensions.cs" />
-    <Compile Include="Extensions\SlackPayloadExtensions.cs" />
     <Compile Include="Messages\ViewModelMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\BingService.cs" />
-    <Compile Include="Service\SlackService.cs" />
     <Compile Include="Service\SpotifyService.cs" />
-    <Compile Include="ViewModel\ContactPageViewModel.cs" />
     <Compile Include="ViewModel\HistoryPageViewModel.cs" />
     <Compile Include="ViewModel\ListenPageViewModel.cs" />
     <Compile Include="ViewModel\MainPageViewModel.cs" />
-    <Compile Include="ViewModel\SettingsPageViewModel.cs" />
     <EmbeddedResource Include="Properties\HIU.Core.rd.xml" />
   </ItemGroup>
   <ItemGroup>

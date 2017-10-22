@@ -2,9 +2,10 @@
 
 namespace HIU.Core.Contract
 {
-    public interface INavigable
-    {
-        Task OnNavigateTo(object parameter);
-        Task OnNavigateFrom(object parameter);
-    }
+	public interface INavigable
+	{
+		Task OnNavigateTo(object parameter);
+		Task OnNavigateFrom(object parameter);
+		Task Loaded(object parameter);
+	}
 }

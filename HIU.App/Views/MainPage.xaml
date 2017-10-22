@@ -17,9 +17,7 @@
 
 	<Grid Background="{ThemeResource SystemControlBackgroundBaseHighBrush}">
 		<controls:HamburgerMenu PaneBackground="#1b3f62" Foreground="White" OpenPaneLength="240" 
-								DisplayMode="Overlay" HamburgerHeight="48" IsPaneOpen="False" ItemsSource="{x:Bind ViewModel.MenuItems}"
-								ItemTemplate="{StaticResource HamburgerMenuItemTemplate}"
-								ItemClick="{x:Bind ViewModel.Navigation}">
+								DisplayMode="Overlay" HamburgerHeight="48" IsPaneOpen="False">
 			<Grid>
 				<Grid.RowDefinitions>
 					<RowDefinition Height="48" />
